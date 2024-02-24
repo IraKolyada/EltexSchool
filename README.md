@@ -1,1 +1,3 @@
 # EltexSchool
+
+Tasks and labs
