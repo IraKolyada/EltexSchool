@@ -15,13 +15,13 @@ wget https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/snapshot
 echo LAB17: Unpack sources
 tar -xf linux-$LAB17_VERSION.tar.gz
 
-#cd linux-$LAB17_VERSION
+cd linux-$LAB17_VERSION
 
 echo LAB17: Create config
-#make $LAB17_CONFIG_TYPE
+make $LAB17_CONFIG_TYPE
 
 echo LAB17: Build kernel
-#make -j4 bzImage
+make -j4 bzImage
 
 echo LAB17: Build modules
-#make -j4 modules
+make -j4 modules
