@@ -1,2 +1,3 @@
 *.dtb
 zImage
+*.tar.bz2
